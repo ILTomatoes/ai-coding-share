@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright-mcp-global__browser_navigate",
+      "Bash(git:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}

@@ -58,7 +58,7 @@ function createSlide(pres, theme) {
   });
   slide.addText("22", {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fontSize: 11, fontFace: "Calibri",
+    fontSize: 12, fontFace: "Calibri",
     color: "FFFFFF", bold: true,
     align: "center", valign: "middle"
   });

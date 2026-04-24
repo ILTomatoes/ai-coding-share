@@ -53,11 +53,11 @@ function createSlide(pres, theme) {
   // Page badge (circle x:9.3 y:5.1 w:0.4 h:0.4, fill:theme.accent, white number)
   slide.addShape(pres.shapes.OVAL, {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fill: { color: theme.accent }
+    fill: { color: theme.secondary }
   });
   slide.addText("15", {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fontSize: 11, fontFace: "Calibri",
+    fontSize: 12, fontFace: "Calibri",
     color: "FFFFFF", bold: true,
     align: "center", valign: "middle",
     margin: 0

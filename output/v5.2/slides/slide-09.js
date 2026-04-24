@@ -16,7 +16,7 @@ const { createSlide, slideConfig } = (() => {
     slide.addText("案例二：A2A 适配器 — 一场代价惨痛的返工", {
       x: 0.4, y: 0.2, w: 8.5, h: 0.55,
       fontSize: 22, fontFace: "Microsoft YaHei",
-      color: text, bold: true,
+      color: theme.secondary, bold: true,
     });
 
     // ---- Left Panel (50%): Background Info ----
@@ -155,11 +155,11 @@ const { createSlide, slideConfig } = (() => {
     // ---- Page Badge (circle) ----
     slide.addShape(pres.shapes.OVAL, {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fill: { color: theme.accent },
+      fill: { color: theme.secondary },
     });
     slide.addText("9", {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fontSize: 14, fontFace: "Calibri",
+      fontSize: 12, fontFace: "Calibri",
       color: "FFFFFF", bold: true,
       align: "center", valign: "middle",
     });

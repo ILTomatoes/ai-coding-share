@@ -21,7 +21,7 @@ function createSlide(pres, theme) {
   slide.addText("SDD 四阶段工作流", {
     x: 0.4, y: 0.15, w: 4.0, h: 0.5,
     fontSize: 22, fontFace: "Microsoft YaHei",
-    color: text, bold: true, align: "left", valign: "middle"
+    color: theme.secondary, bold: true, align: "left", valign: "middle"
   });
 
   // Horizontal 4-node flow
@@ -129,7 +129,7 @@ function createSlide(pres, theme) {
   });
   slide.addText("24", {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fontSize: 11, fontFace: "Calibri",
+    fontSize: 12, fontFace: "Calibri",
     color: "FFFFFF", bold: true,
     align: "center", valign: "middle"
   });

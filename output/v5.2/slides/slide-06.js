@@ -16,7 +16,7 @@ const { createSlide, slideConfig } = (() => {
     slide.addText("协作模式 — 人与 AI 的分工", {
       x: 0.4, y: 0.25, w: 7.5, h: 0.55,
       fontSize: 24, fontFace: "Microsoft YaHei",
-      color: text, bold: true,
+      color: theme.secondary, bold: true,
     });
 
     // ---- Horizontal Flow ----
@@ -137,11 +137,11 @@ const { createSlide, slideConfig } = (() => {
     // ---- Page Badge (circle) ----
     slide.addShape(pres.shapes.OVAL, {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fill: { color: theme.accent },
+      fill: { color: theme.secondary },
     });
     slide.addText("6", {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fontSize: 14, fontFace: "Calibri",
+      fontSize: 12, fontFace: "Calibri",
       color: "FFFFFF", bold: true,
       align: "center", valign: "middle",
     });

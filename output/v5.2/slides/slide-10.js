@@ -16,14 +16,14 @@ const { createSlide, slideConfig } = (() => {
     slide.addText("发生了什么", {
       x: 0.4, y: 0.2, w: 4, h: 0.5,
       fontSize: 24, fontFace: "Microsoft YaHei",
-      color: text, bold: true,
+      color: theme.secondary, bold: true,
     });
 
     // ---- Vertical Timeline (5 nodes) ----
     // Left side timeline
     const tlX = 0.5;
     const tlW = 5.5;
-    const nodeSpacing = 0.85;
+    const nodeSpacing = 0.70;
     const startY = 0.95;
     const nodeH = 0.65;
     const dotR = 0.18; // circle radius
@@ -162,11 +162,11 @@ const { createSlide, slideConfig } = (() => {
     // ---- Page Badge (circle) ----
     slide.addShape(pres.shapes.OVAL, {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fill: { color: theme.accent },
+      fill: { color: theme.secondary },
     });
     slide.addText("10", {
       x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-      fontSize: 13, fontFace: "Calibri",
+      fontSize: 12, fontFace: "Calibri",
       color: "FFFFFF", bold: true,
       align: "center", valign: "middle",
     });

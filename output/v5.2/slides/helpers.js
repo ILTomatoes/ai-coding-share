@@ -34,12 +34,12 @@ function addSubtitle(slide, text, opts = {}) {
 function addPageNumber(slide, pageNum) {
   slide.addShape("oval", {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fill: { color: COLORS.BORDER },
+    fill: { color: COLORS.ACCENT_BLUE },
   });
   slide.addText(String(pageNum), {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fontSize: 10, fontFace: FONTS.EN,
-    color: COLORS.TEXT_GREY, bold: true,
+    fontSize: 12, fontFace: FONTS.EN,
+    color: "FFFFFF", bold: true,
     align: "center", valign: "middle",
     margin: 0,
   });

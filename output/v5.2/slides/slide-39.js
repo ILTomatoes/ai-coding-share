@@ -25,7 +25,7 @@ function createSlide(pres, theme) {
   const leftX = 0.3;
   const leftW = 4.3;
   const colY = 0.8;
-  const colH = 1.55;
+  const colH = 1.30;
 
   slide.addShape(pres.shapes.RECTANGLE, {
     x: leftX, y: colY, w: leftW, h: colH,
@@ -40,7 +40,7 @@ function createSlide(pres, theme) {
     margin: 0
   });
   slide.addText("CLAUDE.md + rules/  |  分层文档 + 架构约束  |  权限分级 + 编码规范", {
-    x: leftX + 0.15, y: colY + 0.45, w: leftW - 0.3, h: 0.95,
+    x: leftX + 0.15, y: colY + 0.45, w: leftW - 0.3, h: 0.70,
     fontSize: 12, fontFace: "Microsoft YaHei",
     color: "E6EDF3", align: "center", valign: "middle",
     margin: 0
@@ -63,7 +63,7 @@ function createSlide(pres, theme) {
     margin: 0
   });
   slide.addText("自动化测试 JUnit/Karate  |  Sonar扫描  |  ArchUnit架构检查  |  CI流水线", {
-    x: rightX + 0.15, y: colY + 0.45, w: rightW - 0.3, h: 0.95,
+    x: rightX + 0.15, y: colY + 0.45, w: rightW - 0.3, h: 0.70,
     fontSize: 12, fontFace: "Microsoft YaHei",
     color: "E6EDF3", align: "center", valign: "middle",
     margin: 0
@@ -71,12 +71,12 @@ function createSlide(pres, theme) {
 
   // Center yellow arrow — closed loop
   slide.addShape(pres.shapes.RECTANGLE, {
-    x: 3.0, y: colY + colH + 0.05, w: 4.0, h: 0.35,
+    x: 3.0, y: colY + colH + 0.05, w: 4.0, h: 0.30,
     fill: { color: "3A2A0A" },
     line: { color: theme.accent, width: 1.5 }
   });
   slide.addText("犯错 → 根因 → 添加约束/检查 → 永远不再犯", {
-    x: 3.0, y: colY + colH + 0.05, w: 4.0, h: 0.35,
+    x: 3.0, y: colY + colH + 0.05, w: 4.0, h: 0.30,
     fontSize: 12, fontFace: "Microsoft YaHei",
     color: theme.accent, bold: true,
     align: "center", valign: "middle",

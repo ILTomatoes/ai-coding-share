@@ -3,7 +3,16 @@
     "allow": [
       "mcp__playwright-mcp-global__browser_navigate",
       "Bash(git:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "WebFetch(domain:mp.weixin.qq.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:openai.com)",
+      "Bash(mkdir -p \"D:/GitCode/self-dev/ai-coding-share/output/v5.2/slides/imgs\")",
+      "Bash(mkdir -p \"D:/GitCode/self-dev/ai-coding-share/output/v5.2/slides/output\")",
+      "Bash(python3 -c ':*)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const lines=fs.readFileSync\\('slide-29.js','utf8'\\).split\\('\\\\n'\\); for\\(let i=19;i<26;i++\\) console.log\\('L'+\\(i+1\\)+': '+JSON.stringify\\(lines[i]\\)\\)\")",
+      "Bash(node compile.js)"
     ]
-  }
+  },
+  "spinnerTipsEnabled": false
 }

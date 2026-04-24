@@ -15,7 +15,7 @@ function createSlide(pres, theme) {
   slide.addText("角色转变", {
     x: 0.5, y: 0.3, w: 8.5, h: 0.6,
     fontSize: 24, fontFace: "Microsoft YaHei",
-    color: theme.text, bold: true,
+    color: theme.secondary, bold: true,
     align: "left", valign: "middle",
     margin: 0
   });
@@ -107,11 +107,11 @@ function createSlide(pres, theme) {
   // Page badge
   slide.addShape(pres.shapes.OVAL, {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fill: { color: theme.accent }
+    fill: { color: theme.secondary }
   });
   slide.addText("19", {
     x: 9.3, y: 5.1, w: 0.4, h: 0.4,
-    fontSize: 11, fontFace: "Calibri",
+    fontSize: 12, fontFace: "Calibri",
     color: "FFFFFF", bold: true,
     align: "center", valign: "middle",
     margin: 0
